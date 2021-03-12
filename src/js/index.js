@@ -16,14 +16,11 @@ function getCities() {
 
 function mountCities(response) {
   var allResponse = response;
-  console.log(response);
 
   $("#city").on("focus", function () {
     var cities = allResponse.map(function (item) {
       return item.nome;
     });
-
-    console.log("cities", cities);
 
     if ($("#city option").length > 0) {
       $("#city option").remove();

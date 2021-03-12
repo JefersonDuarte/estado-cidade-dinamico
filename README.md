@@ -6,3 +6,4 @@
 - CSS
 - JS
 - API do IBGE
+- JQuery

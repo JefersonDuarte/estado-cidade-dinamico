@@ -7,13 +7,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../css/style.css">
   <title>Document</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
 
   <div class="locales">
     <form action="/post" id="form-locales">
-      <label class="state" for="state">Estado<span>*</span>
+      <label class="form-state" for="state">Estado
 
         <select name="state" id="state" required="true">
           <option value="">Selecione</option>
@@ -46,7 +47,7 @@
           <option value="TO">Tocantins</option>
         </select>
 
-        <label class="city" for="city">Cidade <span>*</span>
+        <label class="form-city" for="city">Cidade 
           <select name="city" id="city" required="true"> </select>
         </label>
 
